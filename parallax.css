@@ -1,0 +1,50 @@
+body{
+  font-family: sans-serif;
+  background-color: pink;
+}
+.sectie{
+  border: 1px solid blue;
+  background-attachment: fixed;
+  padding: 2em;
+  background-size:cover;
+}
+.sectie--achtergrond{
+padding:  40vh 3em;
+color:rgba(255,255,255,.7);
+font-size: 2em;
+text-shadow: 0 0 4px green shadow;/
+  }
+.sectie--2{
+  background-image: url('http://kupogames.com/wp-content/uploads/pixel-bacxkgrounds.png');
+
+
+
+}
+.sectie--4{
+  background-image:url('https://d172h4vc197skd.cloudfront.net/images/9d/6a/9d6a1fb0e1beb3ce9b24dd461fbae2f8_250167a717a5_t.png');
+  /* background-image: url('https://www.spriters-resource.com/download/98727/'); */
+  background-repeat: no-repeat;
+
+}
+.sectie--6{
+  background-image: url('https://imgix.bustle.com/mic/n5ypoef0wdk1i7wtjpmjgptukg4zmkbpvaq8lqeyyf0qwmhish0m4umk9jlnhy6d.jpg?w=1020&h=576&fit=crop&crop=faces&auto=format&q=70');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.sec--6 span{
+}
+
+.sectie--6 span:nth-child(2){
+color: white;
+}
+.sectie--6__kop span:nth-child(1){
+  margin-left: -300px;
+}
+.sectie--6__kop span:nth-child(2){
+  margin-left: +400px;
+}
+.sectie--6__kop span:nth-child(3){
+  margin-left: +900px;
+}
