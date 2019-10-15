@@ -25,7 +25,7 @@ const corrSection4 = (gescrolled) => {
 const corrSection6 = (gescrolled) => {
  sectie6.style.backgroundPositionY = gescrolled/10 + "px";
 }
-const verwijderClassKop = () => {
-  document.querySelector('.sectie--6 h1').classList.remove('sectie--6__kop');
+const verwijderClassKopToe = () => {
+  document.querySelector('.sectie--6 h1').classList.add('sectie--6__kop');
 }
 // 1835 in sectie 6
